@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.cupofcoffee,
+.love {
+    position: relative;
+    top: calc(50% - 15vw);
+    left: calc(50% - 15vw);
+}
+
+.plate {
+    position: absolute;
+    background: #F5F5F5;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    box-shadow: 5px 1px 35px #948296;
+}
+
+.cup {
+    position: absolute;
+    padding: 20px;
+    margin: 60px;
+    background: #F5F5F5;
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    box-shadow: 5px 1px 35px #948296;
+    z-index: 1;
+}
+
+.lug {
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    background: #F5F5F5;
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    box-shadow: 0 5px 5px #948296;
+}
+
+.coffee {
+    position: absolute;
+    top: 84px;
+    left: 84px;
+    background: #351D13;
+    width: 135px;
+    height: 135px;
+    border-radius: 100%;
+    border: 10px solid #2C1A12;
+    z-index: 1;
+}
+
+/*heart*/
+
+
+.wheel1 {
+    position: absolute;
+    top: 115px;
+    left: 110px;
+    background: #2C1A12;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.wheel2 {
+    position: absolute;
+    top: 115px;
+    left: 140px;
+    background: #2C1A12;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.square {
+    background: #2C1A12;
+    position: absolute;
+    top: 130px;
+    left: 125px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.tear {
+    position: absolute;
+    background: #806C64;
+    top: 140px;
+    left: 160px;
+    width: 10px;
+    height: 15px;
+    border-radius: 100%;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.tear2 {
+    position: absolute;
+    background: #806C64;
+    top: 160px;
+    left: 150px;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    transform: rotate(45deg);
+    z-index: 1;
+}
